@@ -11,6 +11,8 @@
 
 
 
+
+
 Rekishi is a minimal wrapper for the History API that provides additional pub/sub functionality. 
 
 I became frustrated that, whilst you can assign some state, the history API doesn't give access to any information about _outgoing_ URLs. If you need to create dynamic transitions between different pages or different types of content, then Rekishi can help.
@@ -308,3 +310,4 @@ Sometimes you might need to register additional path information on-the-fly. You
 rekishi.registerPath('/contact', { type: "modal" });
 
 ```
+
